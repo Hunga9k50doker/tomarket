@@ -1,0 +1,23 @@
+Yêu cầu cài nodejs version > 18.xx
+
+Sau khi tải về giải nén, mở terminal 
+
+B1: npm install để cài các module cần thiết
+
+B2: Tạo data.txt để lưu query_id=xxx hoặc user=xxx  dùng cho proxy. Nếu không dùng proxy tạo file noproxydata.txt
+
+B3: Tạo proxy.txt để lưu proxy có định dạng: http://user:pass@ip:port
+
+B4: Chạy tool bằng lệnh : node to hoặc node to-proxy
+
+
+Cấu hình file .env: ===============
+
+AUTO_UPGRADE_RANK=false  //Tự động nâng cấp rank (true/false)
+AUTO_SPIN_BY_STARS=true  //tự động spin (true/false)
+AMOUNT_STARS_TO_SPIN=1      // số lần spin 
+MAX_THREADS=2              //số luồng tối đa
+ENABLE_TASK=false             //tự động làm nhiệm vụ
+CODE_DAILY="11,2,3"                // mã code hàng ngày
+ENABLE_CODE_DAILY=false             // tự động nhập code (true/false)
+NAME_FILE_QUERY_ID_NOPROXY='noproxydata.txt'    //tên file lấy query_id dùng cho bản noproxy
